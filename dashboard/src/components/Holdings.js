@@ -7,7 +7,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   const loadHoldings = async () => {
-    const res = await axios.get("http://localhost:3002/allHoldings");
+    const res = await axios.get("https://zerodhaclone-1-y2ot.onrender.com/allHoldings");
     setAllHoldings(res.data);
   };
 
