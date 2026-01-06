@@ -19,7 +19,7 @@ const Menu = () => {
 
   useEffect(() => {
     axios
-      .post("http://localhost:3002/auth", {}, { withCredentials: true })
+      .post("https://zerodhaclone-1-y2ot.onrender.com/auth", {}, { withCredentials: true })
       .then((res) => {
         setUsername(res.data.user || "User");
         setJoinedDate(res.data.createdAt || new Date());
