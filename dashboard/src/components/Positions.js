@@ -9,7 +9,7 @@ export default function Positions() {
 
   useEffect(() => {
     async function getData() {
-      let response = await axios.get("http://localhost:3002/allPositions");
+      let response = await axios.get("https://zerodhaclone-1-y2ot.onrender.com/allPositions");
       setPositions(response.data);
     }
     getData();
