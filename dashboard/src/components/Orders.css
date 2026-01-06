@@ -1,0 +1,16 @@
+.orders-table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top:20px;
+}
+
+.orders-table th{
+  text-align:left;
+  padding:10px 5px;
+  color:#777;
+}
+
+.orders-table td{
+  padding:10px 5px;
+  border-top:1px solid #eee;
+}

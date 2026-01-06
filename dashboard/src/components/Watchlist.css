@@ -1,0 +1,19 @@
+.actions span{
+  display: flex;
+  align-items: center;   /* 👈 sab same line me aa jayenge */
+  gap: 6px;
+}
+
+button.buy,
+button.sell,
+button.action{
+  height: 32px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;   /* 👈 icon center */
+  justify-content: center;
+}
+
+button.action .icon{
+  font-size: 18px;
+}

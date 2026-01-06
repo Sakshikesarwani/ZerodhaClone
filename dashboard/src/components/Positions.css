@@ -1,0 +1,41 @@
+.positions-wrapper{
+  padding: 25px 40px;
+}
+
+.title{
+  margin-bottom: 15px;
+  color:#333;
+}
+
+.positions-table{
+  width:100%;
+  border-collapse: collapse;
+  background:#fff;
+}
+
+.positions-table th{
+  text-align:left;
+  padding: 10px 6px;
+  color:#777;
+  font-size:13px;
+}
+
+.positions-table td{
+  padding: 10px 6px;
+  border-top:1px solid #eee;
+  font-size:14px;
+}
+
+.green{
+  color:#00c853;
+  font-weight:600;
+}
+
+.red{
+  color:#ff5252;
+  font-weight:600;
+}
+
+.positions-table tr:hover{
+  background:#fafafa;
+}
