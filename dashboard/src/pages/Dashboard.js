@@ -18,7 +18,7 @@ const Home = () => {
 
       try {
         const { data } = await axios.post(
-          "http://localhost:3002/auth",
+          "https://zerodhaclone-1-y2ot.onrender.com/auth",
           {},
           { withCredentials: true }
         );
