@@ -21,7 +21,7 @@ const authRoute = require("./Routes/AuthRoute");
 
 app.use(
   cors({
-    origin: ["https://zerodhaclone-2-szyv.onrender.com", "https://zerodhaclone-5.onrender.com/"],
+    origin: ["https://zerodhaclone-2-szyv.onrender.com", "https://zerodhaclone-5.onrender.com"],
     credentials: true,
   })
 );
