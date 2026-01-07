@@ -7,6 +7,7 @@ Users can sign up, log in, and access a trading dashboard where they can view ho
 
 # 🚀 Live Demo
 
-[Live Website](https://zerodhaclone-2-szyv.onrender.com)
+🌍 **Live Website:** https://zerodhaclone-2-szyv.onrender.com
+
 
 
