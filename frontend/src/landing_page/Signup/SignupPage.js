@@ -43,7 +43,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = "https://zerodhaclone-5.onrender.com";
         }, 1000);
       } else {
         handleError(message);
