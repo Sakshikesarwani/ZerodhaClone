@@ -1,4 +1,4 @@
-# 📌 Zerodha Clone — MERN Full-Stack Project
+# 📌 Zerodha Clone — MERN-Stack Project
 
 
 - This is a fully deployed MERN full-stack project with authentication, protected APIs and MongoDB database.
